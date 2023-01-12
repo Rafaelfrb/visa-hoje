@@ -1,0 +1,38 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.--navbar {
+    height: 100vh; /* Use full height of screen */
+    width: 200px; /* Set width of navbar */
+    position: fixed; /* Position fixed on the page */
+    top: 0; /* Position at the top of the screen */
+    left: 0; /* Position at the left of the screen */
+    background-color: rgba(51, 51, 51, 0.8); /* Set background color with transparency */
+    overflow-x: hidden; /* Hide overflow content */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.--navbar_corner {
+    content: ""; /* clear content*/
+    background-repeat: no-repeat; /* don't repeat image */
+    background-size: cover; /* cover the entire element */
+    position: absolute; /* position absolute */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    width: 80px; /* set the width to the full width of the navbar */
+    z-index: -1; /* put the image behind the text */
+}
+
+.--navbar_options_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.--navbar ul {
+    margin-top: 50px;
+    line-height: 28px;
+    font-weight: 700;
+    color:beige;
+}

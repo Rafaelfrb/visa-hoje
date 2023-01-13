@@ -2,6 +2,8 @@ import React from 'react';
 
 export default function FVisa () {
     return (
-        <div>Student Visa</div>
+        <div>
+            <p>Student Visa</p>
+        </div>
     )
 }

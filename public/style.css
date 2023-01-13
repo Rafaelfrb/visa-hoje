@@ -31,8 +31,13 @@
 }
 
 .--navbar ul {
-    margin-top: 50px;
+    margin-top: 90px;
     line-height: 28px;
     font-weight: 700;
+    
+}
+
+.--navbar a { 
+    text-decoration: none;
     color:beige;
 }

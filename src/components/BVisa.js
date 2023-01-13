@@ -1,17 +1,33 @@
 import React from 'react';
+import './BVisa.css';
+import b2visa from './images/b2visaexample.jpg';
 
 export default function BVisa () {
     return (
-        <div>A tourism visa (B-2) to the United States allows an individual to enter the country
-             temporarily for pleasure or to visit friends or family. 
-             The maximum length of stay is typically six months, but it can be extended in certain circumstances. 
-             To apply for a tourism visa, individuals must submit a completed application form,
-            a passport valid for at least six months beyond the intended stay, and pay a non-refundable fee.
-            They may also be required to provide evidence of financial support, a round-trip ticket,
-            and a clear purpose for the visit. 
-            It is important to note that a tourism visa does not allow for work or study in the United States. 
-            Additionally, it is also important to check the US Embassay website regarding the updated rules
-            and regulations regarding the visa application process as it may be 
-            affected by the current situations.</div>
+        <div>
+            <div className="bg-image-BVisa">
+            <div className="bg-text">
+            <h1>Visto de turismo (B2)</h1>
+                <div className='content-container'>
+                    <div className='image-container'>
+                        <img src={b2visa} />
+                        <p>Exemplo de visto B2</p>
+                    </div>
+                    <div className='text-container'>
+                    <p>O visto americano de turismo (B2) permite que um indivíduo entre temporariamente nos Estados Unidos
+                         por motivos de lazer/férias ou para visitar amigos ou familiares.
+                         A permanência máxima nos EUA é, normalmente, de 6 meses podendo ser extendida em certas circunstâncias.
+                        Para aplicar para um visto de turismo é necessário o preenchimento de um formulário, possuir passaporte
+                        válido por pelo menos seis meses além da data em que pretende estar nos EUA e realizar o pagamento de uma
+                        taxa não-reembolsável.
+                        Pode ser necessário demonstrar comprovação de capacidade financeira, passagem de volta e um objetivo claro para a viagem.
+                        É importante saber que um visto de turismo não permite que seu portador trabalhe ou estude nos EUA.
+                        Adicionalmente, é importante checar o site da Embaixada americana mais próxima para conhecer as regulações atualizadas
+                        com relação à obtenção do seu visto.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
     )
 }

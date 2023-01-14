@@ -13,20 +13,26 @@
     background-color: rgba(51, 51, 51, 0.8); /* Set background color with transparency */
     overflow-x: hidden; /* Hide overflow content */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    text-align: center;
+    text-align: left;
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    transform: translate(-35%, -20%);
+    color: beige;
     padding: 40px;
     width: 750px;
+    border-radius: 12px;
+  }
+
+  .bg-text h1, h2 {
+    text-align: center;
   }
 
   .content-container {
     display: flex;
     align-items: center;
     align-content: space-between;
+    text-align: center;
   }
 
   .text-container{
@@ -39,4 +45,13 @@
   .image-container img {
     width: 300px;
 
+  }
+
+  .to-do-list {
+    margin-top: 10px;
+    line-height: 30px;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(20, 20, 20, 0.8);
+    width: 550px;
   }

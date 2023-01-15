@@ -19,7 +19,7 @@ export default function NavBar() {
                         <a href='/BVisa'>Visto de turismo (B2)</a>
                     </li>
                     <li>
-                        <a href='/FVisa'>Visto de estudante (F1)</a>
+                        <a href='/Ds160'>DS-160</a>
                     </li>
                 </ul>
             </div>

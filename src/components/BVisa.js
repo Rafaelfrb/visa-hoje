@@ -14,13 +14,10 @@ export default function BVisa () {
                         <p>Exemplo de visto B2</p>
                     </div>
                     <div className='text-container'>
-                    <p>O visto americano de turismo (B2) permite que um indivíduo entre temporariamente nos Estados Unidos
+                    <p>  O visto americano de turismo (B2) permite que um indivíduo entre temporariamente nos Estados Unidos
                          por motivos de lazer/férias ou para visitar amigos ou familiares.<br />
                          A permanência máxima nos EUA é, normalmente, de 6 meses podendo ser extendida em certas circunstâncias.<br />
-                        Para aplicar para um visto de turismo é necessário o preenchimento de um formulário, possuir passaporte
-                        válido por pelo menos seis meses além da data em que pretende estar nos EUA e realizar o pagamento de uma
-                        taxa não-reembolsável.<br />
-                        Pode ser necessário demonstrar comprovação de capacidade financeira, passagem de volta e um objetivo claro para a viagem.<br />
+                        
                         É importante saber que um visto de turismo não permite que seu portador trabalhe ou estude nos EUA.<br />
                         Adicionalmente, é importante checar o site da Embaixada americana mais próxima para conhecer as regulações atualizadas
                         com relação à obtenção do seu visto.</p>

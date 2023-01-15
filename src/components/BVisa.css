@@ -30,9 +30,9 @@
 
   .content-container {
     display: flex;
-    align-items: center;
+    align-items: start;
     align-content: space-between;
-    text-align: center;
+    text-align: left;
   }
 
   .text-container{
@@ -44,7 +44,11 @@
 
   .image-container img {
     width: 300px;
+    margin-top: 30px;
+  }
 
+  .image-container p {
+    text-align: center;
   }
 
   .to-do-list {

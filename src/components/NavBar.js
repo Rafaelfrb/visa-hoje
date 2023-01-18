@@ -1,5 +1,6 @@
 import React from 'react';
 import cornerflag from './images/USFlag-removebg-preview.png';
+import { Link } from 'react-router-dom';
 
 
 export default function NavBar() {
@@ -10,16 +11,16 @@ export default function NavBar() {
             <div className='--navbar_options_container'>
                 <ul>
                     <li>
-                        <a href='/'>Sobre</a>
+                        <Link to='/'>Sobre</Link>
                     </li>
                     <li>
-                        <a href='/Passport'>Passaporte</a>
+                        <Link to='/Passport'>Passaporte</Link>
                     </li>
                     <li>
-                        <a href='/BVisa'>Visto de turismo (B2)</a>
+                        <Link to='/BVisa'>Visto de turismo (B2)</Link>
                     </li>
                     <li>
-                        <a href='/Ds160'>DS-160</a>
+                        <Link to='/Ds160'>DS-160</Link>
                     </li>
                 </ul>
             </div>

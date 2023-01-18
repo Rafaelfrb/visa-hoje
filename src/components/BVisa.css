@@ -30,7 +30,7 @@
 
   .content-container {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     align-content: space-between;
     text-align: left;
   }
